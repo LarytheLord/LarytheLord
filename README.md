@@ -28,9 +28,9 @@ Gujarat, India
 
 ## 🚀 Projects
 
-### [Portfolio Website](https://github.com/LarytheLord/Portfolio)
-- Personal portfolio showcasing my UI skills and interactive elements.
-- **Technologies used**: HTML, JavaScript, Three.js
+### [ReEarth](https://github.com/LarytheLord/Uprecycle-Market)
+- ReEarth is an innovative web application poised to transform waste management into a more efficient, sustainable, and user-friendly experience
+- **Technologies used**: node.js, React , Three.js, Firebase
 
 ### [Face Recognition App](https://github.com/ayushrai1235/Face-Attendence)
 - Attendance app utilizing face recognition for automated attendance tracking.
