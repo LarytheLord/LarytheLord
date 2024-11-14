@@ -10,7 +10,7 @@
   <a href="mailto:llawlietbagsum@email.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white"/></a>
 </p>
 
-<p align="center">📍 India | 🎓 Computer Engineering Student | 💻 Aspiring Full Stack Developer</p>
+<p align="center">📍 India | 🎓 Computer Engineering Student | 💻 Aspiring Full Stack Developer | Robotics | ML</p>
 
 ---
 
