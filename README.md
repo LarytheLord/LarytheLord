@@ -13,7 +13,7 @@
 <p align="center">📍 India | 🎓 Computer Engineering Student | 💻 Aspiring Full Stack Developer | Robotics | ML</p>
 
 ---
-
+https://github-readme-stats.hackclub.dev/api/wakatime?username=2863&api_domain=hackatime.hackclub.com&theme=darcula&custom_title=Hackatime+Stats&layout=compact&cache_seconds=0&langs_count=8
 ## 🎓 Education
 
 <img align="right" src="https://img.shields.io/badge/GPA-X.XX%2F4.00-brightgreen?style=for-the-badge" />
