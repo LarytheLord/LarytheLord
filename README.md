@@ -14,7 +14,7 @@
 
 ## 🚨 Who Am I?
 
-> I'm **Abid Khan** — a creative mind blending **code**, **design**, and **tech content**.  
+> I'm **Abi......** — a creative mind blending **code**, **design**, and **tech content**.  
 > I believe tech should not just work — it should **feel good**, look slick, and *inspire*.
 
 - 🧠 CS student with vision and drive
@@ -58,6 +58,6 @@
 ```diff
 + 🎉 Building Joy Hacks — the Instagram of Code Snippets!
 + 🎥 Creating short tech content that educates + entertains
-+ 🎓 Preparing for IISER Aptitude Test & SSB Interview
 + 💥 Seeking internships, hackathons & real-world experience
 + 🧱 Launching a community for CS learners & creators
++ Building Knight for protecting humans from mind demon
