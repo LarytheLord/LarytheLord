@@ -1,7 +1,7 @@
 <h1 align="center">You BELOW AVerage VIBE DECODER</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+Turning+code+into+reels+of+magic.;⚡+Creative+coder+with+an+AR+vision.;💡+Tech+that+talks+to+humans.&center=true&width=1000&height=60&color=FACC15&vCenter=true&size=30">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+Turning+blotware+into+more+bugs+of+magic.;⚡+Decreative+viber+with+a+old+camera+vision.;💡+Tech+that++does'nt+talks+to+humans.&center=true&width=1000&height=60&color=FACC15&vCenter=true&size=30">
 </p>
 
 <p align="center">
@@ -14,8 +14,8 @@
 
 ## 🚨 Who Am I?
 
-> I'm **alex.... the great Wanna be** — a below mind blending **code**, **design**, and **tech content**.  
-> I believe tech is only **feel good**, look slick, and *dispare*.
+- I'm **alex.... the great Wanna be** — a below mind blending **code**, **design**, and **tech content**.  
+- I believe tech is only **feel good**, look slick, and *dispare*.
 
 - 🧠 CS student with low vision of 6/6 in both eye
 - ⚙️ Obsessed my self of building things that don't matter and feels good
@@ -35,6 +35,7 @@
 
 ### ⚙️ Tools & Frameworks  
 <p>
+  Some useless tools with come use
   <img src="https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=000&style=flat-square"/>
   <img src="https://img.shields.io/badge/-Tailwind-38B2AC?logo=tailwindcss&logoColor=fff&style=flat-square"/>
   <img src="https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=fff&style=flat-square"/>
@@ -45,6 +46,7 @@
 
 ### 🎯 Creative & Special Interests  
 <p>
+  Outdated interest
   <img src="https://img.shields.io/badge/-ARCore-4285F4?logo=google&logoColor=fff&style=flat-square"/>
   <img src="https://img.shields.io/badge/-WebXR-black?style=flat-square"/>
   <img src="https://img.shields.io/badge/-OpenSource ❤️-black?style=flat-square"/>
@@ -56,8 +58,8 @@
 ## 🚧 Current Projects & Goals
 
 ```diff
-+ 🎉 Building Joy Hacks — the Instagram of Code Snippets!
-+ 🎥 Creating short tech content that educates + entertains
-+ 💥 Seeking internships, hackathons & real-world experience
-+ 🧱 Launching a community for CS learners & creators
-+ Building Knight for protecting humans from mind demon
++ 🎉 Building Joy Hacks — the ....... of Code Snippets!
++ 🎥 Creating short tech content that educates + entertains my self
++ 💥 Seeking internships, hackathons & real-world experience (hope is still there)
++ 🧱 Launching a commit for CS learners & creators
++ Building Knight for protecting humans from mind demon(belive it)
