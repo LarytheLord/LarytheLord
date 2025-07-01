@@ -1,4 +1,4 @@
-<h1 align="center">✨ Abid Khan — @LarytheLord 👨‍💻</h1>
+<h1 align="center">You BELOW AVerage VIBE DECODER</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+Turning+code+into+reels+of+magic.;⚡+Creative+coder+with+an+AR+vision.;💡+Tech+that+talks+to+humans.&center=true&width=1000&height=60&color=FACC15&vCenter=true&size=30">
@@ -14,13 +14,13 @@
 
 ## 🚨 Who Am I?
 
-> I'm **Abi......** — a creative mind blending **code**, **design**, and **tech content**.  
-> I believe tech should not just work — it should **feel good**, look slick, and *inspire*.
+> I'm **alex.... the great Wanna be** — a below mind blending **code**, **design**, and **tech content**.  
+> I believe tech is only **feel good**, look slick, and *dispare*.
 
-- 🧠 CS student with vision and drive
-- ⚙️ Obsessed with building things that look and feel futuristic
-- 🎯 Devoted to open-source, visuals, and community building
-- 🇨🇳 Shell Internship 2025 applicant | 💥 Hackathon Explorer
+- 🧠 CS student with low vision of 6/6 in both eye
+- ⚙️ Obsessed my self of building things that don't matter and feels good
+- 🎯 Devoted to closed-source, visuals, and Commit building for green bubbles look more grean
+- 💥 Hackathon never come near me 
 
 ---
 
