@@ -50,7 +50,6 @@
   <img src="https://img.shields.io/badge/-ARCore-4285F4?logo=google&logoColor=fff&style=flat-square"/>
   <img src="https://img.shields.io/badge/-WebXR-black?style=flat-square"/>
   <img src="https://img.shields.io/badge/-OpenSource ❤️-black?style=flat-square"/>
-  <img src="https://img.shields.io/badge/-DevReels 🎥-purple?style=flat-square"/>
 </p>
 
 ---
@@ -58,7 +57,7 @@
 ## 🚧 Current Projects & Goals
 
 ```diff
-+ 🎉 Building Joy Hacks — the ....... of Code Snippets!
++ 🎉 Building Joy Hacks — the ....... of Code ....pets!
 + 🎥 Creating short tech content that educates + entertains my self
 + 💥 Seeking internships, hackathons & real-world experience (hope is still there)
 + 🧱 Launching a commit for CS learners & creators
