@@ -1,4 +1,4 @@
-Hey , oh Hi there!
+Hey , oh Hi there!🙋
 I’m Abi, a full web dev, open-source enthusiast, and hackathon explorer.
 I hate building useless stuff.
 
