@@ -1,6 +1,8 @@
 Hey , oh Hi there!🙋
 I’m Abi, a full web & app dev, open-source enthusiast, and hackathon explorer.
 I hate building useless stuff.
+<img src="https://pin.it/2qbu2sY0k" width="400"/>
+
 Better view the projects to understand the progress
 
 Outside of tech, you’ll find me waking up early to study, posting coding content on social media, or diving into a good Manhwa. 
