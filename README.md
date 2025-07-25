@@ -1,4 +1,4 @@
-##Hey there! 🙌 I'm Abi — a laid-back, caffeine-fueled full-stack web & app developer, open‑source enthusiast, and hackathon junkie who lives by one mantra: no pointless code.
+## Hey there! 🙌 I'm Abi — a laid-back, caffeine-fueled full-stack web & app developer, open‑source enthusiast, and hackathon junkie who lives by one mantra: no pointless code.
 
 # Welcome to My Block (of Code)
 
@@ -39,8 +39,12 @@ If you're curious about the code or want to collaborate:
 Copy
 Edit
 git clone https://github.com/LarytheLord/putherewhateverrepoyoulike.git
+
 cd your-repo
-npm install   # or your setup command
-npm run dev   # or similar to launch
+
+npm install   
+# or your setup command
+npm run dev   
+# or similar to launch
 
 No fluff, just launching into what matters. FOr most repos 
