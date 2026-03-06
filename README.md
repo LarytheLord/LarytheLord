@@ -70,15 +70,17 @@
 ## 🧠 Open Source Contributions (Selected)
 
 <p align="center">
-  <em>Recent merged PRs in established OSS repos (high-signal, reviewer-approved).</em>
+  <em>Recent merged PRs in established OSS repos (ranked by ecosystem signal + technical impact).</em>
 </p>
 
-| Repo | Stars | Merged PR | Contribution |
-|---|---:|---|---|
-| [`thoughtbot/shoulda-matchers`](https://github.com/thoughtbot/shoulda-matchers) | ![stars](https://img.shields.io/github/stars/thoughtbot/shoulda-matchers?style=flat-square) | [#1700](https://github.com/thoughtbot/shoulda-matchers/pull/1700) | Fixed broken README anchor for matcher usage docs |
-| [`nextflow-io/nextflow`](https://github.com/nextflow-io/nextflow) | ![stars](https://img.shields.io/github/stars/nextflow-io/nextflow?style=flat-square) | [#6869](https://github.com/nextflow-io/nextflow/pull/6869) | Clarified `Path.name` behavior for staged process path inputs |
-| [`scverse/scanpy`](https://github.com/scverse/scanpy) | ![stars](https://img.shields.io/github/stars/scverse/scanpy?style=flat-square) | [#3986](https://github.com/scverse/scanpy/pull/3986) | Reduced duplicated parameter docs for Louvain/Leiden workflows |
-| [`mlco2/codecarbon`](https://github.com/mlco2/codecarbon) | ![stars](https://img.shields.io/github/stars/mlco2/codecarbon?style=flat-square) | [#1080](https://github.com/mlco2/codecarbon/pull/1080) | CLI robustness fix for auth/config failures (non-doc code change) |
-| [`mlco2/codecarbon`](https://github.com/mlco2/codecarbon) | ![stars](https://img.shields.io/github/stars/mlco2/codecarbon?style=flat-square) | [#1081](https://github.com/mlco2/codecarbon/pull/1081) | Quickstart docs improved for no-API and auth edge cases |
-| [`sustainable-computing-io/kepler`](https://github.com/sustainable-computing-io/kepler) | ![stars](https://img.shields.io/github/stars/sustainable-computing-io/kepler?style=flat-square) | [#2431](https://github.com/sustainable-computing-io/kepler/pull/2431) | Added minimal install path without Prometheus Operator |
-| [`protontypes/open-sustainable-technology`](https://github.com/protontypes/open-sustainable-technology) | ![stars](https://img.shields.io/github/stars/protontypes/open-sustainable-technology?style=flat-square) | [#1369](https://github.com/protontypes/open-sustainable-technology/pull/1369) | Fixed broken sustainability resources and reference links |
+| Repo | Stars | Merged PR | Scope | Impact |
+|---|---:|---|---|---|
+| [`kubernetes/kubernetes`](https://github.com/kubernetes/kubernetes) | ![stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=flat-square) | [#137283](https://github.com/kubernetes/kubernetes/pull/137283) | API docs correctness | Clarified env-var key constraints to reduce config ambiguity in Kubernetes manifests |
+| [`mlco2/codecarbon`](https://github.com/mlco2/codecarbon) | ![stars](https://img.shields.io/github/stars/mlco2/codecarbon?style=flat-square) | [#1080](https://github.com/mlco2/codecarbon/pull/1080) | CLI robustness (code) | Prevented noisy traceback behavior on auth/config failures |
+| [`pyinat/pyinaturalist`](https://github.com/pyinat/pyinaturalist) | ![stars](https://img.shields.io/github/stars/pyinat/pyinaturalist?style=flat-square) | [#684](https://github.com/pyinat/pyinaturalist/pull/684) | API feature (code) | Added `annotations.create()` support for term/value labels |
+| [`pyinat/pyinaturalist`](https://github.com/pyinat/pyinaturalist) | ![stars](https://img.shields.io/github/stars/pyinat/pyinaturalist?style=flat-square) | [#686](https://github.com/pyinat/pyinaturalist/pull/686) | Type-safe refactor (code) | Derived multi-choice constants from `Literal` aliases for safer client behavior |
+| [`openfoodfacts/openfoodfacts-dart`](https://github.com/openfoodfacts/openfoodfacts-dart) | ![stars](https://img.shields.io/github/stars/openfoodfacts/openfoodfacts-dart?style=flat-square) | [#1203](https://github.com/openfoodfacts/openfoodfacts-dart/pull/1203) | CI quality | Added automated package-score workflow for release/readiness visibility |
+| [`nextflow-io/nextflow`](https://github.com/nextflow-io/nextflow) | ![stars](https://img.shields.io/github/stars/nextflow-io/nextflow?style=flat-square) | [#6869](https://github.com/nextflow-io/nextflow/pull/6869) | Workflow semantics docs | Clarified `Path.name` behavior for staged process path inputs |
+| [`scverse/scanpy`](https://github.com/scverse/scanpy) | ![stars](https://img.shields.io/github/stars/scverse/scanpy?style=flat-square) | [#3986](https://github.com/scverse/scanpy/pull/3986) | API docs quality | Removed duplicated Louvain/Leiden parameter docs for cleaner reference usage |
+| [`sustainable-computing-io/kepler`](https://github.com/sustainable-computing-io/kepler) | ![stars](https://img.shields.io/github/stars/sustainable-computing-io/kepler?style=flat-square) | [#2431](https://github.com/sustainable-computing-io/kepler/pull/2431) | Deployment docs | Added minimal install path without requiring Prometheus Operator |
+| [`protontypes/open-sustainable-technology`](https://github.com/protontypes/open-sustainable-technology) | ![stars](https://img.shields.io/github/stars/protontypes/open-sustainable-technology?style=flat-square) | [#1369](https://github.com/protontypes/open-sustainable-technology/pull/1369) | Docs reliability | Fixed broken sustainability-resource links |
