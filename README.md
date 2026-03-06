@@ -9,7 +9,7 @@
 </p>
 
 > **"Ship fast, break things, optimize everything."** 💀  
-> Currently **The Adventurers Guild** (500+ users) | **1K+ GitHub contributions** | **5:30 AM grinder** ☕
+> Currently **The Adventurers Guild** (500+ users) | **501 GitHub contributions in 2026 (YTD)** | **Open-source sprint mode** ☕
 
 ---
 
@@ -48,18 +48,18 @@
 ## 💯 By The Numbers
 
 ```
-🔥 127-day contribution streak
-⚡ 50+ merged PRs this year  
-🌟 1K+ total contributions
-🚀 3 hackathon wins
-📦 5 production apps deployed
+🔥 20-day current contribution streak (as of March 6, 2026)
+⚡ 56 merged PRs in 2026 (40 external OSS)
+🌟 501 GitHub contributions in 2026 (YTD)
+👥 25 followers | 86 public repositories
+🔄 45 external open PRs currently in review
 ```
 
 ---
 
 ## 📡 Connect
 
-**📧** your-email **|** **💼** [LinkedIn](your-linkedin) **|** **🐦** [Twitter](your-twitter)
+**📧** llawlietbagsum@gmail.com **|** **🌐** [Portfolio](https://openpermit.vercel.app) **|** **🐙** [GitHub](https://github.com/LarytheLord)
 
 <p align="center">
   <strong>⭐ Star repos if you're impressed. Let's build something legendary. ⭐</strong>
@@ -70,7 +70,7 @@
 ## 🧠 Open Source Contributions (Selected)
 
 <p align="center">
-  <em>High-signal, reviewer-driven work across production OSS projects.</em>
+  <em>High-signal, reviewer-driven work across production OSS projects (updated March 6, 2026).</em>
 </p>
 
 ### ✅ Merged Code + CI Contributions (External OSS)
@@ -97,6 +97,7 @@
 
 - [`typeorm/typeorm#12048`](https://github.com/typeorm/typeorm/pull/12048) - replication config compatibility (`primary/replica` aliases + legacy keys)
 - [`apache/airflow#62954`](https://github.com/apache/airflow/pull/62954) - duplicate plugin-name handling with clearer import errors
+- [`helm/helm#31910`](https://github.com/helm/helm/pull/31910) - fix post-render manifest corruption from glued YAML doc separators
 - [`helm/helm#31906`](https://github.com/helm/helm/pull/31906) - install plugin to first `HELM_PLUGINS` path entry
 - [`helm/helm#31907`](https://github.com/helm/helm/pull/31907) - hermetic kubeconfig test hardening for CLI
 - [`biopython/biopython#5170`](https://github.com/biopython/biopython/pull/5170) - PDBList obsolete-file movement across formats/assemblies
