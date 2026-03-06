@@ -70,28 +70,34 @@
 ## 🧠 Open Source Contributions (Selected)
 
 <p align="center">
-  <em>Recent merged PRs in established OSS repos (ranked by ecosystem signal + technical impact).</em>
+  <em>High-signal, reviewer-driven work across production OSS projects.</em>
 </p>
 
-### ✅ High-Value Merged PRs (External OSS)
+### ✅ Merged Code + CI Contributions (External OSS)
 
-| Repo | Stars | Merged PR | Scope | Impact |
-|---|---:|---|---|---|
-| [`kubernetes/kubernetes`](https://github.com/kubernetes/kubernetes) | ![stars](https://img.shields.io/github/stars/kubernetes/kubernetes?style=flat-square) | [#137283](https://github.com/kubernetes/kubernetes/pull/137283) | API docs correctness | Clarified env-var key constraints to reduce config ambiguity in Kubernetes manifests |
-| [`nextflow-io/nextflow`](https://github.com/nextflow-io/nextflow) | ![stars](https://img.shields.io/github/stars/nextflow-io/nextflow?style=flat-square) | [#6869](https://github.com/nextflow-io/nextflow/pull/6869) | Workflow semantics docs | Clarified `Path.name` behavior for staged process path inputs |
-| [`scverse/scanpy`](https://github.com/scverse/scanpy) | ![stars](https://img.shields.io/github/stars/scverse/scanpy?style=flat-square) | [#3986](https://github.com/scverse/scanpy/pull/3986) | API docs quality | Removed duplicated Louvain/Leiden parameter docs for cleaner reference usage |
-| [`thoughtbot/shoulda-matchers`](https://github.com/thoughtbot/shoulda-matchers) | ![stars](https://img.shields.io/github/stars/thoughtbot/shoulda-matchers?style=flat-square) | [#1700](https://github.com/thoughtbot/shoulda-matchers/pull/1700) | Docs quality | Fixed broken README anchor for matcher usage docs |
-| [`mlco2/codecarbon`](https://github.com/mlco2/codecarbon) | ![stars](https://img.shields.io/github/stars/mlco2/codecarbon?style=flat-square) | [#1080](https://github.com/mlco2/codecarbon/pull/1080) | CLI robustness (code) | Prevented noisy traceback behavior on auth/config failures |
-| [`pyinat/pyinaturalist`](https://github.com/pyinat/pyinaturalist) | ![stars](https://img.shields.io/github/stars/pyinat/pyinaturalist?style=flat-square) | [#684](https://github.com/pyinat/pyinaturalist/pull/684) | API feature (code) | Added `annotations.create()` support for term/value labels |
-| [`pyinat/pyinaturalist`](https://github.com/pyinat/pyinaturalist) | ![stars](https://img.shields.io/github/stars/pyinat/pyinaturalist?style=flat-square) | [#686](https://github.com/pyinat/pyinaturalist/pull/686) | Type-safe refactor (code) | Derived multi-choice constants from `Literal` aliases for safer client behavior |
-| [`openfoodfacts/openfoodfacts-dart`](https://github.com/openfoodfacts/openfoodfacts-dart) | ![stars](https://img.shields.io/github/stars/openfoodfacts/openfoodfacts-dart?style=flat-square) | [#1203](https://github.com/openfoodfacts/openfoodfacts-dart/pull/1203) | CI quality | Added automated package-score workflow for release/readiness visibility |
-| [`sustainable-computing-io/kepler`](https://github.com/sustainable-computing-io/kepler) | ![stars](https://img.shields.io/github/stars/sustainable-computing-io/kepler?style=flat-square) | [#2431](https://github.com/sustainable-computing-io/kepler/pull/2431) | Deployment docs | Added minimal install path without requiring Prometheus Operator |
-| [`protontypes/open-sustainable-technology`](https://github.com/protontypes/open-sustainable-technology) | ![stars](https://img.shields.io/github/stars/protontypes/open-sustainable-technology?style=flat-square) | [#1369](https://github.com/protontypes/open-sustainable-technology/pull/1369) | Docs reliability | Fixed broken sustainability-resource links |
-| [`gbif/pygbif`](https://github.com/gbif/pygbif) | ![stars](https://img.shields.io/github/stars/gbif/pygbif?style=flat-square) | [#200](https://github.com/gbif/pygbif/pull/200) | API docs clarity | Clarified auth requirements for download endpoints |
+| Repo | Merged PR | Area | Outcome |
+|---|---|---|---|
+| [`mlco2/codecarbon`](https://github.com/mlco2/codecarbon) | [#1080](https://github.com/mlco2/codecarbon/pull/1080) | CLI reliability | Fixed auth/config failure path to avoid noisy traceback behavior |
+| [`pyinat/pyinaturalist`](https://github.com/pyinat/pyinaturalist) | [#684](https://github.com/pyinat/pyinaturalist/pull/684) | API feature | Added `annotations.create()` support for term/value labels |
+| [`pyinat/pyinaturalist`](https://github.com/pyinat/pyinaturalist) | [#686](https://github.com/pyinat/pyinaturalist/pull/686) | Type-safe refactor | Derived multi-choice constants from `Literal` aliases |
+| [`openfoodfacts/openfoodfacts-dart`](https://github.com/openfoodfacts/openfoodfacts-dart) | [#1203](https://github.com/openfoodfacts/openfoodfacts-dart/pull/1203) | CI / release quality | Added automated `pub.dev` package-score workflow |
+
+### 📚 Selected Documentation Contributions (Merged, External OSS)
+
+| Repo | Merged PR | Area | Outcome |
+|---|---|---|---|
+| [`kubernetes/kubernetes`](https://github.com/kubernetes/kubernetes) | [#137283](https://github.com/kubernetes/kubernetes/pull/137283) | API docs correctness | Clarified env-var key constraints for `envFrom` usage |
+| [`nextflow-io/nextflow`](https://github.com/nextflow-io/nextflow) | [#6869](https://github.com/nextflow-io/nextflow/pull/6869) | Workflow semantics | Clarified `Path.name` behavior for staged process path inputs |
+| [`scverse/scanpy`](https://github.com/scverse/scanpy) | [#3986](https://github.com/scverse/scanpy/pull/3986) | API reference quality | Removed duplicated Louvain/Leiden parameter docs |
+| [`sustainable-computing-io/kepler`](https://github.com/sustainable-computing-io/kepler) | [#2431](https://github.com/sustainable-computing-io/kepler/pull/2431) | Deploy docs | Added minimal deployment path without Prometheus Operator |
+| [`gbif/pygbif`](https://github.com/gbif/pygbif) | [#200](https://github.com/gbif/pygbif/pull/200) | API auth docs | Clarified `GBIF_USER/GBIF_PWD` requirements for download endpoints |
+| [`thoughtbot/shoulda-matchers`](https://github.com/thoughtbot/shoulda-matchers) | [#1700](https://github.com/thoughtbot/shoulda-matchers/pull/1700) | README quality | Fixed broken anchor for matcher usage examples |
 
 ### 🔄 Active PRs in Review (Current)
 
-- [`helm/helm#31906`](https://github.com/helm/helm/pull/31906) – plugin install path-list fix for `HELM_PLUGINS`
-- [`helm/helm#31907`](https://github.com/helm/helm/pull/31907) – hermetic kubeconfig test hardening
-- [`apache/airflow#62954`](https://github.com/apache/airflow/pull/62954) – duplicate plugin-name handling with surfaced import errors
-- [`typeorm/typeorm#12048`](https://github.com/typeorm/typeorm/pull/12048) – replication alias compatibility (`primary/replica` + legacy keys)
+- [`typeorm/typeorm#12048`](https://github.com/typeorm/typeorm/pull/12048) - replication config compatibility (`primary/replica` aliases + legacy keys)
+- [`apache/airflow#62954`](https://github.com/apache/airflow/pull/62954) - duplicate plugin-name handling with clearer import errors
+- [`helm/helm#31906`](https://github.com/helm/helm/pull/31906) - install plugin to first `HELM_PLUGINS` path entry
+- [`helm/helm#31907`](https://github.com/helm/helm/pull/31907) - hermetic kubeconfig test hardening for CLI
+- [`biopython/biopython#5170`](https://github.com/biopython/biopython/pull/5170) - PDBList obsolete-file movement across formats/assemblies
+- [`kubernetes/website#54714`](https://github.com/kubernetes/website/pull/54714) - terminology cleanup in namespace examples
