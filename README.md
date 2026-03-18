@@ -1,4 +1,4 @@
-# Hey there! 👋 I'm Abi
+# Sup 👋 this's Abid
 
 ### 🚀 Full-Stack Wizard | AI/ML Engineer | Hackathon Destroyer
 
