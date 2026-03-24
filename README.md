@@ -58,6 +58,14 @@ I contribute code fixes and features to production OSS repos with active review 
 **Email:** llawlietbagsum@gmail.com  
 **Site:** [abikhn.vercel.app](https://abikhn.vercel.app/)
 
+---
+
+## Activity
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=LarytheLord&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LarytheLord&theme=tokyo-night&hide_border=true&area=true&custom_title=Abi%27s%20Contribution%20Graph" alt="Abi's GitHub activity graph"/>
 </p>
