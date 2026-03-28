@@ -26,6 +26,7 @@ I also contribute code and docs to production open-source projects in scientific
 
 Selected merged contributions:
 
+- [daytonaio/daytona#4107](https://github.com/daytonaio/daytona/pull/4107) - fixed hanging stdin behavior in sync daemon session commands
 - [docling-project/docling#3134](https://github.com/docling-project/docling/pull/3134) - fixed image backend resource leaks
 - [pyinat/pyinaturalist#686](https://github.com/pyinat/pyinaturalist/pull/686) and [#684](https://github.com/pyinat/pyinaturalist/pull/684) - added type-safe constants and annotation label support
 - [mlco2/codecarbon#1080](https://github.com/mlco2/codecarbon/pull/1080) - fixed noisy auth/config failure paths
