@@ -1,4 +1,4 @@
-# Abi
+# Abid
 
 Software developer building public products in AI, civic tech, and developer tooling.
 I also contribute code and docs to production open-source projects in scientific Python, data tooling, and infrastructure.
