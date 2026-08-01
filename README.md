@@ -64,4 +64,4 @@ Fixes and features merged into projects at real scale:
 `Python` `TypeScript` `Go` `Julia` — Numba · NumPy · Array API · Inspect · transformers/trl · RAG
 Next.js · React · FastAPI — PostgreSQL/Supabase · Docker · Vercel · GitHub Actions
 
-📫 **llawlietbagsum@gmail.com**  ·  🌐 **[abikhn.vercel.app](https://abikhn.vercel.app/)**
+📫 **llawlietbagsum@gmail.com**  ·  🌐 **[abikhn.vercel.app](https://abikhn.vercel.app/)**  ·  📊 **[Kaggle](https://www.kaggle.com/larythelord)**
