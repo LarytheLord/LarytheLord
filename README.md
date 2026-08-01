@@ -18,7 +18,8 @@ Porting performance-critical Cython to **Numba**, with **Array-API / GPU-residen
 
 ### 🧪 AI / ML
 
-- **[inspect-speciesism-eval](https://github.com/LarytheLord/inspect-speciesism-eval)** — an LLM value-alignment evaluation on UK AISI's **Inspect** framework; it surfaces when a model *recognizes* a harm yet still rates it acceptable. Truncation-aware scorer built for reasoning models · 13 tests. (Ongoing research into the framing-robustness of moral judgment; cross-family replication in progress.)
+- **[values-laundering](https://github.com/LarytheLord/values-laundering)** — a black-box study of how discourse framing bends an LLM's moral judgment. **Euphemism is the single load-bearing move**: it dominates the six CDA framing moves cross-family (Gemma-2-9b, N=81), survives a strict binary "is this wrong?" test (38%), and the moves *saturate* rather than compound. Data + judge kernels + a one-command reproduce script. ([Kaggle dataset](https://www.kaggle.com/datasets/larythelord/values-laundering-llm))
+- **[inspect-speciesism-eval](https://github.com/LarytheLord/inspect-speciesism-eval)** — an LLM value-alignment evaluation on UK AISI's **Inspect** framework; it surfaces when a model *recognizes* a harm yet still rates it acceptable. Truncation-aware scorer built for reasoning models · 13 tests. Cross-family replication done (Gemma-2-9b, N=81); being registered in UK AISI's **inspect_evals**.
 - **Applied LLMs** — a production **RAG** system (Pinecone + OpenAI), LLM civic tooling, and RLHF data pipelines.
 
 ### 🔧 Open Source — merged code
