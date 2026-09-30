@@ -1,8 +1,8 @@
 # Abid Khan
 
-> Building AI for the ones who can't build it for themselves — and shipping the software around it.
+> Building AI for the ones who can't build it for themselves and shipping the software around it.
 
-AI/ML & full-stack engineer. **GSoC 2026 @ NumFOCUS / scikit-bio**, where I make scientific-Python hot paths fast (Numba · Array API · GPU). Around that I build LLM tools and evaluations — much of it aimed at animal advocacy with **[Open Paws](https://www.openpaws.ai)** — and I merge code into projects people actually run.
+AI/ML & full-stack engineer. **GSoC 2026 @ NumFOCUS / scikit-bio**, where I make scientific-Python hot paths fast (Numba · Array API · GPU). Around that I build LLM tools and evaluations much of it aimed at animal advocacy with **[Open Paws](https://www.openpaws.ai)** — and I merge code into projects people actually run.
 
 I like reproducible benchmarks, honest negative results, and code that ships.
 
@@ -55,14 +55,13 @@ Fixes and features merged into projects at real scale:
 ### 🚀 Shipped
 
 - **[Adventurers Guild](https://adventurersguild.space)** — gamified developer-project marketplace · Next.js · Prisma/Neon · Stripe · CI + tests
-- **knight-medicare** — mental-health video-consultation platform · Next.js · Supabase · LiveKit · *CTO & co-founder*
 - **[Open Permit](https://openpermit.vercel.app)** — LLM civic tool: monitors development permits, drafts cited objections · Gemini · Supabase
 - **[AFA Resource Chatbot](https://afachatbot.vercel.app)** — production RAG over the Asia-for-Animals resource database · Pinecone · OpenAI
 - **Material Innovation** — B2B sustainable-materials platform · Next.js · Supabase · Stripe
 
 ### 🧰 Stack
 
-`Python` `TypeScript` `Go` `Julia` — Numba · NumPy · Array API · Inspect · transformers/trl · RAG
-Next.js · React · FastAPI — PostgreSQL/Supabase · Docker · Vercel · GitHub Actions
+`Python` `TypeScript` `Go` - Numba · NumPy · Array API · Inspect · transformers/trl · RAG
+Next.js · React · FastAPI - PostgreSQL/Supabase · Docker · GitHub Actions
 
 📫 **llawlietbagsum@gmail.com**  ·  🌐 **[abikhn.vercel.app](https://abikhn.vercel.app/)**  ·  🤗 **[HuggingFace](https://huggingface.co/LarytheLord)**  ·  📊 **[Kaggle](https://www.kaggle.com/larythelord)**
