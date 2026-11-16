@@ -16,6 +16,8 @@ Porting performance-critical Cython to **Numba**, with **Array-API / GPU-residen
 
 → [scikit-bio/scikit-bio](https://github.com/scikit-bio/scikit-bio)
 
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/LarytheLord/badge.svg)](https://hub.xerj.org/contributors/LarytheLord) My permdisp GPU kernel was selected for the XERJ Corpus Hub, an open reference that AI coding agents search before writing code.
+
 ### 🧪 AI / ML
 
 - **[values-laundering](https://github.com/LarytheLord/values-laundering)** — a black-box study of how discourse framing bends an LLM's moral judgment. **Euphemism is the single load-bearing move**: it dominates the six CDA framing moves cross-family (Gemma-2-9b, N=81), survives a strict binary "is this wrong?" test (38%), and the moves *saturate* rather than compound. Data + judge kernels + a one-command reproduce script. ([Kaggle dataset](https://www.kaggle.com/datasets/larythelord/values-laundering-llm))
