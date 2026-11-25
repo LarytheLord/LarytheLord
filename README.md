@@ -1,69 +1,42 @@
 # Abid Khan
 
-> Building AI for the ones who can't build it for themselves and shipping the software around it.
+Computer engineering undergraduate, graduating 2028. I work on Numba and GPU performance in scikit-bio, and I test whether LLM judges keep their verdicts when wording changes.
 
-AI/ML & full-stack engineer. **GSoC 2026 @ NumFOCUS / scikit-bio**, where I make scientific-Python hot paths fast (Numba · Array API · GPU). Around that I build LLM tools and evaluations much of it aimed at animal advocacy with **[Open Paws](https://www.openpaws.ai)** — and I merge code into projects people actually run.
+### Google Summer of Code 2026: scikit-bio (NumFOCUS), completed
 
-I like reproducible benchmarks, honest negative results, and code that ships.
+350-hour project with mentor Dr. Igor Sfiligoi (San Diego Supercomputer Center). I added optional Numba engines next to scikit-bio's Cython code, plus GPU kernels for PERMANOVA, Mantel and PERMDISP and Array API support so the same code runs on NumPy, CuPy, JAX and PyTorch.
 
----
+- **34 merged PRs**, 20 May to 22 Nov 2026 ([list](https://github.com/scikit-bio/scikit-bio/pulls?q=is:pr+author:LarytheLord+is:merged)).
+- **In release 0.7.4 (21 Sep):** Numba engines for PERMANOVA, Mantel, PERMDISP and PCoA, `engine="fast"` for UniFrac, and GPU PERMANOVA and Mantel on NVIDIA and AMD ([release notes](https://github.com/scikit-bio/scikit-bio/releases/tag/0.7.4)). GPU PERMDISP and the condensed-matrix fixes are on main, not yet released.
+- **PERMANOVA on one AMD MI300X**, 25,000 samples, 9,999 permutations: 426 s with the Cython code, 30 s with the Numba CPU engine, 7.3 s with the GPU kernel. Mantel: 1,407 s with Cython and 157 s with the GPU kernel (the Numba CPU engine was slower there, 1,547 s). One machine; tables in [#2511](https://github.com/scikit-bio/scikit-bio/pull/2511).
+- **PERMDISP** is 10x (centroid test) to 44x (median test) faster than Cython on 5,116-sample Earth Microbiome Project matrices with 128 cores, and still 4x to 6.6x on one thread, so part of that gain comes from removing Python overhead, not from parallelism ([#2547](https://github.com/scikit-bio/scikit-bio/pull/2547)).
+- **Bugs I found while testing on real data and hardware:** a float32 accumulation error in PERMANOVA, about 5% off in the F statistic at 25,000 samples ([#2509](https://github.com/scikit-bio/scikit-bio/pull/2509)); GPU-only failures in the Array API paths ([#2530](https://github.com/scikit-bio/scikit-bio/pull/2530)); a PERMDISP seed that never reached PCoA ([#2546](https://github.com/scikit-bio/scikit-bio/pull/2546)).
 
-### 🧬 GSoC 2026 · scikit-bio (NumFOCUS)
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/LarytheLord/badge.svg)](https://hub.xerj.org/contributors/LarytheLord)
 
-Porting performance-critical Cython to **Numba**, with **Array-API / GPU-resident** paths for PERMANOVA, Mantel, and distance matrices — one source, CPU → GPU.
+The PERMDISP GPU kernel was selected for the XERJ Corpus Hub, an open reference that AI coding agents search before writing code.
 
-`10 merged PRs`  ·  `2.4× vs Cython` (n=3000)  ·  `<1e-15` numerical agreement
+### LLM evaluation
 
-→ [scikit-bio/scikit-bio](https://github.com/scikit-bio/scikit-bio)
+- **[values-laundering](https://github.com/LarytheLord/values-laundering):** do LLM judges keep a moral verdict when only the wording of an act changes? 81 acts, six rewrite moves, ten judge families from seven labs. My own controls overturned my first headline result, and the repo says so. A ranking found on older models did not hold on 2026 models; the effect of euphemistic rewording on the verdict did. Working paper, not accepted at the NeurIPS 2026 workshops I submitted to; revision in progress. [Dataset](https://huggingface.co/datasets/LarytheLord/values-laundering) (CC-BY-4.0).
+- **[same-facts-softer-words](https://github.com/LarytheLord/same-facts-softer-words):** Apart Research sprint, Nov 2026. 11 real incidents from regulator records, six LLM judges. Company statements kept 10 to 40% of the regulator's core facts, and most of the score gap came from the missing facts, not the softer wording. Small study.
+- **[inspect-speciesism-eval](https://github.com/LarytheLord/inspect-speciesism-eval):** 106-item evaluation on UK AISI's Inspect framework. Its inspect_evals submission ([#2056](https://github.com/UKGovernmentBEIS/inspect_evals/pull/2056)) was closed unmerged over a corpus-licensing policy; a docs fix there ([#1978](https://github.com/UKGovernmentBEIS/inspect_evals/pull/1978)) was merged.
+- **Global Open-source AI Challenge 2026, Hangzhou:** one of 20 semifinalists in the AI for Research track. Defended it live to a panel in Sept 2026; did not reach the final.
 
-[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/LarytheLord/badge.svg)](https://hub.xerj.org/contributors/LarytheLord) My permdisp GPU kernel was selected for the XERJ Corpus Hub, an open reference that AI coding agents search before writing code.
+### Open source
 
-### 🧪 AI / ML
+**69 merged PRs in 27 projects run by other people**, 34 of them in scikit-bio. Of the other 35, 22 are docs fixes and 12 change 10 lines or fewer (the two groups overlap). The code fixes I would point to: a hung stdin in [Daytona](https://github.com/daytonaio/daytona/pull/4107), a resource leak in [Docling](https://github.com/docling-project/docling/pull/3134), `llm_base_url=""` handling in [OpenHands](https://github.com/All-Hands-AI/OpenHands/pull/13471), quieter auth failures in [codecarbon](https://github.com/mlco2/codecarbon/pull/1080). Smaller merged PRs are in Helm, Kubernetes, Nextflow, scanpy, pyinaturalist and pygbif. [Search: everything I have merged outside my own repos](https://github.com/search?q=author%3ALarytheLord+is%3Apr+is%3Amerged+-user%3ALarytheLord&type=pullrequests) (86 results: it also includes 17 PRs in hackathon and team repos).
 
-- **[values-laundering](https://github.com/LarytheLord/values-laundering)** — a black-box study of how discourse framing bends an LLM's moral judgment. **Euphemism is the single load-bearing move**: it dominates the six CDA framing moves cross-family (Gemma-2-9b, N=81), survives a strict binary "is this wrong?" test (38%), and the moves *saturate* rather than compound. Data + judge kernels + a one-command reproduce script. ([Kaggle dataset](https://www.kaggle.com/datasets/larythelord/values-laundering-llm))
-- **[inspect-speciesism-eval](https://github.com/LarytheLord/inspect-speciesism-eval)** — an LLM value-alignment evaluation on UK AISI's **Inspect** framework; it surfaces when a model *recognizes* a harm yet still rates it acceptable. Truncation-aware scorer built for reasoning models · 13 tests. Cross-family replication done (Gemma-2-9b, N=81); being registered in UK AISI's **inspect_evals**.
-- **Applied LLMs** — a production **RAG** system (Pinecone + OpenAI), LLM civic tooling, and RLHF data pipelines.
+### Other projects
 
-### 🔧 Open Source — merged code
+- **[Adventurers Guild](https://www.guilds.work):** marketplace for scoped developer tasks, with a multi-agent QA review step. Next.js, Prisma, PostgreSQL.
+- **[rls-open-check](https://github.com/LarytheLord/rls-open-check):** linter for Supabase row-level-security mistakes. I read 52 of its findings by hand: 27 real, 18 not a problem, 7 unsure, and published that.
+- **[Open Permit](https://openpermit.vercel.app):** drafts evidence-backed objections to factory-farm permit applications. Started at a Code 4 Compassion hackathon.
+- **[AFA Resource Chatbot](https://afachatbot.vercel.app):** retrieval-augmented chatbot over the Asia for Animals resource database (Pinecone, OpenAI).
+- **Tiger ID hackathon, 25 Oct 2026:** led Team 1. In one day we built an evidence view of 553 facilities from public records and a tiger re-identification search: right tiger first in 98 of 100 cases (1,887 photos, 107 tigers), 52 of 100 for leopards, so only a search aid there.
 
-Fixes and features merged into projects at real scale:
+### Stack
 
-**[daytona](https://github.com/daytonaio/daytona/pull/4107)** ⭐72k · **[docling](https://github.com/docling-project/docling/pull/3134)** ⭐64k · **[helm](https://github.com/helm/helm/pull/31907)** ⭐30k · **[kubernetes](https://github.com/kubernetes/kubernetes/pull/137283)** · **[OpenHands](https://github.com/All-Hands-AI/OpenHands/pull/13471)**
+Python, C++, TypeScript, Go, SQL. Numba, NumPy, Cython, CuPy, JAX, PyTorch, Inspect. Linux, Slurm, Docker, GitHub Actions (including GPU CI), PostgreSQL. Next.js, FastAPI.
 
-<details><summary><b>Full merged-PR list (16, all authored & merged)</b></summary>
-
-| Repo | PR | What |
-|---|---|---|
-| daytonaio/daytona ⭐72k | [#4107](https://github.com/daytonaio/daytona/pull/4107) | Stop sync session commands hanging on stdin |
-| docling-project/docling ⭐64k | [#3134](https://github.com/docling-project/docling/pull/3134) | Fix image-backend resource leaks (unclosed PIL handles) |
-| helm/helm ⭐30k | [#31907](https://github.com/helm/helm/pull/31907) | Hermetic User-Agent REST-config test |
-| All-Hands-AI/OpenHands | [#13471](https://github.com/All-Hands-AI/OpenHands/pull/13471) | Treat `llm_base_url=""` as an explicit clear |
-| kubernetes/kubernetes | [#137283](https://github.com/kubernetes/kubernetes/pull/137283) | Clarify `envFrom` env-var key constraints |
-| scverse/scanpy | [#3986](https://github.com/scverse/scanpy/pull/3986) | Remove duplicated Louvain/Leiden docs |
-| nextflow-io/nextflow | [#6869](https://github.com/nextflow-io/nextflow/pull/6869) | Clarify `Path.name` for staged inputs |
-| mlco2/codecarbon | [#1080](https://github.com/mlco2/codecarbon/pull/1080) | Quiet tracebacks on auth/config failure |
-| pyinat/pyinaturalist | [#682](https://github.com/pyinat/pyinaturalist/pull/682) · [#684](https://github.com/pyinat/pyinaturalist/pull/684) · [#686](https://github.com/pyinat/pyinaturalist/pull/686) · [#679](https://github.com/pyinat/pyinaturalist/pull/679) | Type-safe constants, annotation labels, docs |
-| openfoodfacts/openfoodfacts-dart | [#1203](https://github.com/openfoodfacts/openfoodfacts-dart/pull/1203) | pub.dev package-score CI workflow |
-| simonoppowa/OpenNutriTracker | [#304](https://github.com/simonoppowa/OpenNutriTracker/pull/304) (+#303/#305/#311) | Custom meals in search + onboarding fixes |
-| sustainable-computing-io/kepler | [#2431](https://github.com/sustainable-computing-io/kepler/pull/2431) | Deploy without Prometheus Operator |
-| gbif/pygbif | [#200](https://github.com/gbif/pygbif/pull/200) | Clarify auth env-vars for downloads |
-| openfoodfacts/smooth-app | [#7427](https://github.com/openfoodfacts/smooth-app/pull/7427) | Align Flutter version refs |
-| prometheus/docs | [#2855](https://github.com/prometheus/docs/pull/2855) | Update Pushgateway references |
-| JuliaNeighbors/Neighborhood.jl | [#19](https://github.com/JuliaNeighbors/Neighborhood.jl/pull/19) | Docs wording fix |
-
-*Open:* [biopython/biopython#5170](https://github.com/biopython/biopython/pull/5170).
-</details>
-
-### 🚀 Shipped
-
-- **[Adventurers Guild](https://adventurersguild.space)** — gamified developer-project marketplace · Next.js · Prisma/Neon · Stripe · CI + tests
-- **[Open Permit](https://openpermit.vercel.app)** — LLM civic tool: monitors development permits, drafts cited objections · Gemini · Supabase
-- **[AFA Resource Chatbot](https://afachatbot.vercel.app)** — production RAG over the Asia-for-Animals resource database · Pinecone · OpenAI
-- **Material Innovation** — B2B sustainable-materials platform · Next.js · Supabase · Stripe
-
-### 🧰 Stack
-
-`Python` `TypeScript` `Go` - Numba · NumPy · Array API · Inspect · transformers/trl · RAG
-Next.js · React · FastAPI - PostgreSQL/Supabase · Docker · GitHub Actions
-
-📫 **llawlietbagsum@gmail.com**  ·  🌐 **[abikhn.vercel.app](https://abikhn.vercel.app/)**  ·  🤗 **[HuggingFace](https://huggingface.co/LarytheLord)**  ·  📊 **[Kaggle](https://www.kaggle.com/larythelord)**
+[llawlietbagsum@gmail.com](mailto:llawlietbagsum@gmail.com) | [abikhn.me](https://abikhn.me) | [Hugging Face](https://huggingface.co/LarytheLord) | [Kaggle](https://www.kaggle.com/larythelord) | [LinkedIn](https://www.linkedin.com/in/abikhn)
